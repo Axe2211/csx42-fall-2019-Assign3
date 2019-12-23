@@ -1,0 +1,11 @@
+package loadbalancer.subject;
+
+public enum ClusterOp{
+    SERVICE_OP__ADD_SERVICE,
+    SERVICE_OP__REMOVE_SERVICE,
+    SERVICE_OP__ADD_INSTANCE,
+    SERVICE_OP__REMOVE_INSTANCE,
+    CLUSTER_OP__SCALE_UP,
+    CLUSTER_OP__SCALE_DOWN,
+    SERVICE_UNKNOWN
+}
